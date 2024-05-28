@@ -1,17 +1,17 @@
-Font: Small = DroidSans_8
-Font: Normal = DroidSans_11
-Font: Bold = DroidSans_11_Bold
-Font: Italic = OpenSans_11_Italic
-Font: Medium = DroidSans_16
-Font: Big = DroidSans_20
+Font: Small = neoe_8
+Font: Normal = neoe_11
+Font: Bold = neoe_11
+Font: Italic = neoe_11
+Font: Medium = neoe_11
+Font: Big = neoe_20
 
-Font: Subsys = DroidSans_11
-Font: Name = GoodTimes_9
-Font: Detail = DroidSans_8
+Font: Subsys = neoe_11
+Font: Name = neoe_8
+Font: Detail = neoe_8
 
-Font: Title = GoodTimes_18
-Font: Subtitle = DroidSans_14
-Font: Button = DroidSans_11
+Font: Title = neoe_20
+Font: Subtitle = neoe_20
+Font: Button = neoe_11
 
 Color: Text = #fff
 Color: Selected = #a0000080

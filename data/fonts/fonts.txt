@@ -1,4 +1,22 @@
 
+Font: neoe_8
+	File: data/fonts/neoeselect.ttf
+	Size: 8
+	Page1: 0000 - 052F
+	Page2: 1AB0 - FFFD
+
+Font: neoe_11
+	File: data/fonts/neoeselect.ttf
+	Size: 11
+	Page1: 0000 - 052F
+	Page2: 1AB0 - FFFD
+
+Font: neoe_20
+	File: data/fonts/neoeselect.ttf
+	Size: 20
+	Page1: 0000 - 052F
+	Page2: 1AB0 - FFFD
+
 Font: Arial_10
 	File: data/fonts/arial.ttf
 	Size: 10
@@ -43,7 +61,7 @@ Font: DroidSans_8
 	Page3: 0400 - 04FF
 	Page4: 2200 - 22FF
 	Page5: 2000 - 20FF
-	
+
 Font: DroidSans_10
 	File: data/fonts/DroidSans.ttf
 	Size: 10
