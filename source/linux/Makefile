@@ -113,7 +113,7 @@ else
 	ifndef DEBUG
 		LDFLAGS += -Lsource/lib/lin$(ARCH)
 	endif
-	LDFLAGS += -lGL -lGLU -lX11 -lXrandr -lXxf86vm -lXi -lopenal -lcurl
+	LDFLAGS += -lGL -lGLU -lX11 -lXrandr -lXxf86vm -lXi -lopenal -lcurl 
 
 endif
 
@@ -130,6 +130,7 @@ LIB_FILES += $(LIBDIR)/libircclient.a
 LIB_FILES += $(LIBDIR)/libos.a
 LIB_FILES += $(LIBDIR)/libnetwork.a
 LIB_FILES += $(LIBDIR)/libutil.a
+LIB_FILES += ./source/libtextfrog.a
 
 NOCOPYLIBS=1
 ifndef NOCOPYLIBS

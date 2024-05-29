@@ -29,6 +29,8 @@
 #include <unistd.h>
 #endif
 
+#include "textfrog.h"
+
 bool launchPatcher = false;
 
 namespace scripts {
@@ -179,9 +181,15 @@ double formulaTest(void*,const std::string* var) {
 void netErrorMessage(const char* err, int code) {
 	error("Network Error: %s (%i)", err, code);
 }
-
+textfrog tfg ;
 int main(int argc, char** argv) {
 	std::string launchConnect, launchPassword, launchLobby;
+	{ // init tfg
+	print("init tfg in main()\n");
+	tfg = tfg_init ( 0 ) ;
+	tfg_include ( tfg , "data/main.tfg" ) ;
+	tfg_call ( tfg , "init" , 0 ) ;
+	}
 
 	//Create profile directories
 	{

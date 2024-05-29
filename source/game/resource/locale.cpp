@@ -5,6 +5,10 @@
 #include "main/logging.h"
 #include <stdarg.h>
 
+#include "textfrog.h"
+
+extern textfrog tfg ;
+
 namespace resource {
 
 void Locale::clear() {
@@ -33,8 +37,11 @@ void Locale::load(const std::string& filename) {
 		}
 	}
 }
-
+void	tfglog(  std::string& text, int typ){
+	 tfg_call2 ( tfg , "logx" , "SL" , text .c_str(), typ ) ;
+}
 std::string Locale::localize(const std::string& text, bool requireHash, bool doUnescape, bool doFormat) {
+	// tfg_call ( tfg , "hello" , 0 ) ;
 	bool hasHash = !text.empty() && text[0] == '#';
 	if(requireHash && !hasHash)
 		return doUnescape ? unescape(text) : text;
@@ -45,12 +52,16 @@ std::string Locale::localize(const std::string& text, bool requireHash, bool doU
 			auto it = hashLocalizations.find(text);
 			if(it == hashLocalizations.end())
 				return doUnescape ? unescape(text) : text;
+			tfglog(*it->second,1);
+			// tfg_call2 ( tfg , "log1" , "S" , *it->second->c_str() ) ;
 			return *it->second;
 		}
 		else {
 			auto it = localizations.find(text);
 			if(it == localizations.end())
 				return doUnescape ? unescape(text) : text;
+			tfglog(*it->second,2);
+			//tfg_call2 ( tfg , "log1" , "S" , *it->second->c_str() ) ;
 			return *it->second;
 		}
 	}
@@ -81,6 +92,8 @@ std::string Locale::localize(const std::string& text, bool requireHash, bool doU
 
 		std::string output;
 		format(output, result.c_str(), argCnt-1, args);
+		//tfg_call2 ( tfg , "log2" , "S" , output.c_str() ) ;
+		tfglog(output,3);
 		return output;
 	}
 }

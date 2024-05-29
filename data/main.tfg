@@ -1,0 +1,17 @@
+runnable main args {
+}
+func init {
+	logname ( '_log' 'tfg' ) // . addTime = true
+	log ( 'tfg init' )
+	log ( 'hi test' )
+	G . txts = set ( [ ] )
+}
+func hello {
+	log ( 'hello' )
+}
+func logx s t {
+	if G . txts . contains ( s ) return 0 end
+	G . txts . add ( s )
+	log ( '[t%s]%s' t s )
+}
+
