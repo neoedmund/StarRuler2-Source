@@ -17,7 +17,7 @@ Font: neoe_20
 	Page2: 1AB0 - FFFD
 
 Font: Arial_10
-	File: data/fonts/arial.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 10
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -26,7 +26,7 @@ Font: Arial_10
 	Page5: 2000 - 20FF
 
 Font: Arial_12
-	File: data/fonts/arial.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 12
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -35,7 +35,7 @@ Font: Arial_12
 	Page5: 2000 - 20FF
 
 Font: Arial_16
-	File: data/fonts/arial.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 16
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -44,7 +44,7 @@ Font: Arial_16
 	Page5: 2000 - 20FF
 
 Font: Debug
-	File: data/fonts/DroidSansMono.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 12
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -53,7 +53,7 @@ Font: Debug
 	Page5: 2000 - 20FF
 
 Font: DroidSans_8
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 8
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -62,7 +62,7 @@ Font: DroidSans_8
 	Page5: 2000 - 20FF
 
 Font: DroidSans_10
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 10
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -80,7 +80,7 @@ Font: DroidSans_11_Bold
 	Page5: 2000 - 20FF
 
 Font: OpenSans_11_Italic
-	File: data/fonts/OpenSans-Italic.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 11
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -89,7 +89,7 @@ Font: OpenSans_11_Italic
 	Page5: 2000 - 20FF
 
 Font: DroidSans_11
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 11
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -100,7 +100,7 @@ Font: DroidSans_11
 	Italic: OpenSans_11_Italic
 
 Font: DroidSans_14
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 14
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -109,7 +109,7 @@ Font: DroidSans_14
 	Page5: 2000 - 20FF
 
 Font: DroidSans_16
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 16
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -118,7 +118,7 @@ Font: DroidSans_16
 	Page5: 2000 - 20FF
 
 Font: DroidSans_20
-	File: data/fonts/DroidSans.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 24
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -150,7 +150,7 @@ Font: JP_8
 	Locale: japanese
 	Replace: DroidSans_8
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 10
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -165,7 +165,7 @@ Font: JP_10
 	Locale: japanese
 	Replace: DroidSans_10
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 10
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -182,7 +182,7 @@ Font: JP_11
 	Replace: DroidSans_11_Bold
 	Replace: OpenSans_11_Italic
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 11
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -197,7 +197,7 @@ Font: JP_14
 	Locale: japanese
 	Replace: DroidSans_14
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 14
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -212,7 +212,7 @@ Font: JP_16
 	Locale: japanese
 	Replace: DroidSans_16
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 16
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
@@ -227,7 +227,7 @@ Font: JP_20
 	Locale: japanese
 	Replace: DroidSans_20
 
-	File: data/fonts/DroidSansFallbackFull.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 20
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
