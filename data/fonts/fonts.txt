@@ -1,4 +1,3 @@
-
 Font: neoe_8
 	File: data/fonts/neoeselect.ttf
 	Size: 8
@@ -72,7 +71,7 @@ Font: DroidSans_10
 	Page5: 2000 - 20FF
 
 Font: DroidSans_11_Bold
-	File: data/fonts/DroidSans-Bold.ttf
+	File: data/fonts/neoeselect.ttf
 	Size: 11
 	Page1: 0000 - 024F
 	Page2: 0370 - 03FF
