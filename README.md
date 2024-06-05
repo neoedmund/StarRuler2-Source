@@ -1,3 +1,9 @@
+# changes by me
+- tried chinese translation(1% complete), tweak fonts to show correctly.
+- game random crash without message, most related with localization.
+- will go on only by find the game is interesting to play, but not yet found out, so pause.
+
+
 # Star Ruler 2
 Star Ruler 2 is a massive scale 4X/RTS set in space. Explore dozens, hundreds,
 or even thousands of systems in a galaxy of your choosing, expand across its
